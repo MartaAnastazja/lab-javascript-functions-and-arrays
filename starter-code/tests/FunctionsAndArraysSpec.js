@@ -80,6 +80,7 @@ describe('Calculating a Sum - sumArray', function () {
   });
 });
 
+
 describe('Calculating the Average - averageNumbers', function () {
   it('Defines averageNumbers', function () {
     expect(typeof averageNumbers).toBe('function');
@@ -102,6 +103,7 @@ describe('Calculating the Average - averageNumbers', function () {
   });
 });
 
+
 describe('Calculating the Average - averageWordLength', function () {
   it('Defines averageWordLength', function () {
     expect(typeof averageWordLength).toBe('function');
@@ -119,6 +121,7 @@ describe('Calculating the Average - averageWordLength', function () {
     expect(averageWordLength(['Ironhack', 'Madrid', 'Barcelona', 'Paris', 'Miami', 'Mexico', 'Berlin', 'Programmers'])).toBe(7);
   });
 });
+
 
 describe('Unique Arrays - uniquifyArray', function () {
   it('Defines uniquifyArray', function () {
@@ -141,6 +144,8 @@ describe('Unique Arrays - uniquifyArray', function () {
     expect(uniquifyArray(['iPhone', 'Samsung', 'Android', 'iOS', 'iPhone', 'Samsung', 'Nokia', 'Blackberry', 'Android'])).toEqual(['iPhone', 'Samsung', 'Android', 'iOS', 'Nokia', 'Blackberry']);
   });
 });
+
+function uniquifyArray (array) {}
 
 describe('Finding Elements - doesWordExist', function () {
   it('Defines doesWordExist', function () {
